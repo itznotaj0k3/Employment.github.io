@@ -1,0 +1,347 @@
+<HTML>
+<HEAD>
+  <TITLE>Employment cMap.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Connor Dorsett, Concept Map, cmap, CmapTools, IHMC, My Cmap,  Miners,  Total number of robots produced each year since 2002,  Maintence,  Why are jobs left behind?,  Maintence,  Dirty Jobs,  Practice and learning,  Video of an oil rig drilling into the ground.,  Computer Engineer,  Human interaction,  The Probability of white collar jobs being lost in the next two decades,  ????,  Sleep,  Blue Collar,  Business Man,  Water,  Right parts,  Robotics,  Food,  Technical">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: My Cmap, Maintence Maintence, Lawyer ???? Bankers, Employment Is broken down into This is a picture of a blue collar job., White Collar These are Human Jobs, Blue Collar Consists of Dirty Jobs, Robotics Robots needs Human interaction, White Collar Is broken into White collar consists of desk jobs., Car Factory with nearly a human in sight. Is Computer Engineer, Blue Collar Consists of A job that a robot will not be able to do- Lawyer, or be able to be up on a stand., Robotics Robots needs Battery, Car Factory with nearly a human in sight. Is Practice and learning, Human Jobs Human needs Water, Human Jobs Human needs Air, Robotics Robots needs Right parts, Human Jobs Human needs Food, Employment Is broken down into White Collar, Employment Is broken down into Blue Collar, Technical Is also Robotics, Human Jobs Human needs Sleep, Employment Is broken down into The Probability of white collar jobs being lost in the next two decades">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: My Cmap, Maintence Maintence, Lawyer ???? Bankers, Employment Is broken down into This is a picture of a blue collar job., White Collar These are Human Jobs, Blue Collar Consists of Dirty Jobs, Robotics Robots needs Human interaction, White Collar Is broken into White collar consists of desk jobs., Car Factory with nearly a human in sight. Is Computer Engineer, Blue Collar Consists of A job that a robot will not be able to do- Lawyer, or be able to be up on a stand., Robotics Robots needs Battery, Car Factory with nearly a human in sight. Is Practice and learning, Human Jobs Human needs Water, Human Jobs Human needs Air, Robotics Robots needs Right parts, Human Jobs Human needs Food, Employment Is broken down into White Collar, Employment Is broken down into Blue Collar, Technical Is also Robotics, Human Jobs Human needs Sleep, Employment Is broken down into The Probability of white collar jobs being lost in the next two decades
+
+</noscript>
+
+<map name="Employment cMap.html">
+  <area shape="rect"
+        href="1R2GDB9FSI22TVZ7RI3TWItextIhtml"
+        onClick="popUpEvt(event,'1R2GDB9FSI22TVZ7RI3TWItextIhtml'); return false;"
+        coords="298,303,316,321">
+  <area shape="rect"
+        href="1R2G5LRP2I1CT31B8IT6ItextIhtml"
+        onClick="popUpEvt(event,'1R2G5LRP2I1CT31B8IT6ItextIhtml'); return false;"
+        coords="2158,236,2176,254">
+  <area shape="rect"
+        href="1R2G6FM0LI1FP9G23I1BVItextIhtml"
+        onClick="popUpEvt(event,'1R2G6FM0LI1FP9G23I1BVItextIhtml'); return false;"
+        coords="2144,890,2162,908">
+  <area shape="rect"
+        href="1R2GCC5G2I21C1Y9BI2V7ItextIhtml"
+        onClick="popUpEvt(event,'1R2GCC5G2I21C1Y9BI2V7ItextIhtml'); return false;"
+        coords="751,1107,769,1125">
+  <area shape="rect"
+        href="1R2G407B8I24JNFR2IBGItextIhtml"
+        onClick="popUpEvt(event,'1R2G407B8I24JNFR2IBGItextIhtml'); return false;"
+        coords="302,1089,320,1107">
+  <area shape="rect"
+        href="1R2GBWW1CI1F6LWZKI2LHItextIhtml"
+        onClick="popUpEvt(event,'1R2GBWW1CI1F6LWZKI2LHItextIhtml'); return false;"
+        coords="1677,960,1695,978">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#Employment cMap.html"
+             SRC="Employment cMap.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1R2GDB9FSI22TVZ7RI3TWItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://resources.phrasemix.com/img/full/Blue-collar-mechanic.jpg "TITLE="">
+      Blue-collar-mechanic.jpg (1336×891)
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2G5LRP2I1CT31B8IT6ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.youtube.com/watch?v=xGN0hMhPJ7w "TITLE="">
+      Drilling Rig - YouTube
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2G6FM0LI1FP9G23I1BVItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.rethinkrobotics.com/wp-content/uploads/2015/12/robots-supply-639x456.png "TITLE="">
+      robots-supply-639x456.png (639×456)
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2GCC5G2I21C1Y9BI2V7ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.thebestlawyersguide.com/wp-content/uploads/2013/02/get-a-Lawyer.jpg "TITLE="">
+      get-a-Lawyer.jpg (505×337)
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2G407B8I24JNFR2IBGItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.nakedcapitalism.com/wp-content/uploads/2014/01/ScreenHunter_921-Jan.-20-10.16.jpg "TITLE="">
+      ScreenHunter_921-Jan.-20-10.16.jpg (292×503)
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2GBWW1CI1F6LWZKI2LHItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://g.foolcdn.com/editorial/images/194024/robots_large.JPG "TITLE="">
+      robots_large.JPG (580×438)
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
